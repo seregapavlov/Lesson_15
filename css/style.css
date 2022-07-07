@@ -1,0 +1,147 @@
+@import "null.css";
+@import "fonts.css";
+/* ===================================================================================================================================== */
+
+
+.logo {
+    background: url("../img/promise/Mark.svg") 0 -5px no-repeat ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 0.5;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;    
+    color: #5D62B5;
+    padding: 5px 0 0 35px;
+    height: 25px;
+    margin-bottom: 33px;
+  
+    
+  
+}
+/* .promise__logo *:not(:last-child){ 
+    margin-bottom: 113px;
+                                             ????????????????????????????????????????????????
+ } */
+
+.tatle {
+    font-style: normal;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 0.86;
+   margin-bottom: 68px;
+   color: #000000;
+}
+.promise__items {
+    display: flex;
+    margin: 0 -12px;
+}
+.promise__item {
+    display: flex;
+    column-gap: 26px;
+    flex: 0 0 33.333%;
+    padding: 0 12px;
+}
+.promise__item-icon {
+    align-items: flex-start;
+    
+}
+.promise__item-text *:not(:last-child) {
+    margin-bottom: 20px;
+}
+.promise__item-text p{
+    font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #4B4B4B;
+
+}
+.promise__item-text h3{
+   font-style: normal;
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 0.73;
+   color: #F2726F;
+}
+/* ================================================================================================================================ */
+.line{
+    width: 100%;
+    height: 40px;
+    background-color: #5D62B5;
+    margin: 100px 0;
+}
+
+
+
+.services-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+    row-gap: 24px;
+    
+}
+.services-item {
+    background: #FFFFFF;
+    border-radius: 20px;
+    flex: 0 0 33.333%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+    max-width: 322px;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-item *:not(:last-child){
+    margin-bottom: 20px;
+}
+.services-item-icon {
+    margin-bottom: 33px;
+}
+.services-item-tatle {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    
+    color: #F2726F;
+}
+.services-item-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+    flex: 1 1 auto;
+    max-width: 237px;
+   
+}
+ 
+
+
+
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+.button__a {
+ font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.15px;
+text-transform: uppercase;
+color: #FFFFFF;
+border-radius: 8px;
+background-color: #F2726F;
+padding: 10px 25px;
+margin: 75px 0;
+}
